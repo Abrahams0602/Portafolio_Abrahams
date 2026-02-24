@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/portfolio/style/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="barra-busqueda">
+                <li><a href="#About-Me">ABOUT ME</a></li>
+                <li><a href="#Projects">PROJECTS</a></li>
+                <li><a href="#Skilss">SKILLS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Home">
+
+        <div class="contenedor-imagen">
+            <img src="./portfolio/templates/img/undraw_web-developer_ggt0.svg" alt="imagen-web-developer">
+        </div>
+        <div class="contenedor-textos">
+            <p>Mi Portafolio</p>
+            <h2 class="encabezado">Hola! Bienvenidos a mi Portafolio</h2>
+        </div>
+
+    </section>
+    <section id="About-Me" class="reveal">
+        <h2>About Me</h2>
+        <div class="abt-me reveal">
+            <img class="foto-abr" src="/portfolio/templates/img/foto-abrahams.jpeg" alt="foto-abrahams">
+            <div class="presentacion-personal animar-oculto">
+                <strong><u>¿QUIÉN SOY?</u></strong> <br>
+                <p>Desarrollador de software junior con formación técnica en desarrollo backend y frontend. 
+                Experiencia en diseño e implementación de aplicaciones web y sistemas internos, con foco 
+                en lógica de negocio, organización de datos y trazabilidad de procesos. Perfil analítico, 
+                organizado y orientado a resultados, con fuerte interés en el aprendizaje continuo y el 
+                crecimiento en entornos de desarrollo de software. </p>
+                <p>Soy una persona que se destaca por su habilidad para trabajar en equipo y adaptarme con facilidad a diversos entornos. 
+                    Me caracterizo por ser una persona comprometida yresponsable.
+                    Me considero altamente organizado, siempre orientado a la consecución de resultados y con una actitud proactiva. 
+                    Mi objetivo es profundizar en los conocimientos que he adquirido y buscar la manera de aplicarlos en el contexto profesional.</p>
+                <p>
+                    <strong><u>FORMACIÓN ACADÉMICA </u></strong> <br>
+                    'Tecnicatura Superior en Desarrollo de Software' – IFTS N°18 <br>
+                    'Desarrollo Web' – Coderhouse <br>
+                    'Introducción a la Programación' – Aprendizaje a lo largo de la Vida <br>
+                    'Inglés Intermedio' – English Discoveries (Ciudad Bilingüe) <br>
+            </p>
+            </div>
+            
+        </div>
+    </section>
+    <section id="Projects" class="reveal">
+        <h2>Projects</h2>
+                <div class="presentacion">
+
+            <div class="atras">
+                <img id="atras" src="/portfolio/templates/img/flecha-izquierda (1).png" alt="flecha-atras" loading="lazy">
+            </div>
+
+            <div class="imagenes">
+                <div id="img">
+                    <img src="/portfolio/templates/img/imagen-logotipo.png" alt="imagen-naruto">
+                </div>
+            </div>
+
+            <div id="texto" class="texto">
+                <h3>Carrusel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, tempora!</p>
+            </div>
+
+            <div class="adelante">
+                <img id="adelante" src="/portfolio/templates/img/flecha-correcta.png" alt="flecha-adelante" loading="lazy">
+            </div>
+        </div>
+
+        <div class="puntos" id="puntos"></div>
+        <div class="card-projects">
+            <p>A lo largo de mi formación como Tecnico Superior en Desarrollo de Software he desarrolado aplicaciones enfocadas en la funcionalidad y la experiencia del usuario. Aquí presento algunos de mis proyectos más recientes donde aplico lógica de backend con Python y dinamismo en el frontend con JavaScript, entre otras tecnologías!.</p>
+            <div class="div-cards reveal">
+                <div class="proyectos">
+                    <div class="backboard">
+                        <img src="/portfolio/templates/img/imagen-backboard.png" alt="">
+                        <a href="https://baackboard.netlify.app/" target="_blank">Backboard</a>
+                        <p>'Backboard' es un sitio para todo lo relacionado con el baloncesto! Se encontrarán las últimas noticas, análisis y actualizaciones sobre el mundo de la NBA</p>
+                    </div>
+                    <div class="backboard">
+                        <img src="/portfolio/templates/img/logo-stocky.png" alt="">
+                        <a href="https://stocky-frontend.vercel.app/login" target="_blank">Stocky</a>
+                        <p>El Software 'STOCKY', es un sistema de gestión de inventario diseñado para centralizar el control de stock en las diversas ubicaciones de las empresas. </p>
+                    </div>
+                    <div class="backboard">
+                        <img src="/portfolio/templates/img/imagen-pokeApi.png" alt="">
+                        <a href="https://pokedex-pokeapi-wsnz.onrender.com" target="_blank">PokeApi</a>
+                        <p>'PokeApi' es un sitio web para todo fanatico de la la famosa saga, donde podran encontrar datos de los más de 1000 Pokémon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Skills" class="reveal">
+        <h2>My Skills</h2>
+            <h2 class="my-sk reveal">Programming languages</h2>
+            <div class="logos">
+                <img class="logo-pyt" src="/portfolio/templates/img/python.png" alt="logo-python">
+                <img class="logo-html" src="/portfolio/templates/img/html.png" alt="logo-html">
+                <img class="logo-css" src="/portfolio/templates/img/css.png" alt="logo-css">
+                <img class="logo-js" src="/portfolio/templates/img/java-script.png" alt="logo-js">
+            </div>
+    </section>
+
+<footer>
+    <p>¡Contacto!</p>
+    <div class="sec-footer">
+        <div class="footer-item">
+            <a href="https://github.com/Abrahams0602" target="_blank" class="footer-link">
+                <img src="./portfolio/templates/img/github.png" alt="GitHub" class="footer-logo">
+                <span>GitHub</span>
+            </a>
+        </div>
+
+        <div class="footer-item">
+            <a href="https://www.linkedin.com/in/abrahams-nieves-20232233a" target="_blank" class="footer-link">
+                <img src="./portfolio/templates/img/linkedin.png" alt="LinkedIn" class="footer-logo">
+                <span>LinkedIn</span>
+            </a>
+        </div>
+
+        <div class="footer-item">
+            <a href="https://wa.me/1156626617" target="_blank" class="footer-link">
+                <img src="./portfolio/templates/img/whatsapp.png" alt="WhatsApp" class="footer-logo">
+                <span>WhatsApp</span>
+            </a>
+        </div>
+
+        <div class="footer-item">
+            <a href="mailto:tuemail@ejemplo.com" target="_blank" class="footer-link">
+                <img src="./portfolio/templates/img/email.png" alt="Email" class="footer-logo">
+                <span>Email</span>
+            </a>
+        </div>
+    </div>
+</footer>
+            <script src="app.js"></script>
+</body>
+</html>
